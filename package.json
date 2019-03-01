@@ -2,7 +2,11 @@
   "name": "todo-list-front",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://boiling-eyrie-31056.herokuapp.com/",
   "dependencies": {
+    "axios": "^0.18.0",
+    "http-proxy-middleware": "^0.19.1",
+    "immutability-helper": "^3.0.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
